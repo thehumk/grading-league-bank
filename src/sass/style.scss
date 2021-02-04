@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1366px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #1F1E25;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  min-height: 91px;
+  margin: 0 auto;
+}
+
+.page-header__logo {
+  position: relative;
+  // font-family: "Work Sans", "Arial", sans-serif;
+  padding-left: 37px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 91px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 26px;
+    top: 26px;
+    left: -1px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding: 0 12.5px;
+}
+
+.main-nav__link {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 91px;
+  color: #1F1E25;
+
+  &--active {
+    color: #2C36F2;
+  }
+}
+
+.user-block {
+  padding-left: 30px;
+  margin-left: 81px;
+}
+
+.user-block__link {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 91px;
+  color: #1F1E25;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 22px;
+    top: 34px;
+    left: -30px;
+    background-image: url("../img/icon-login.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+
+
