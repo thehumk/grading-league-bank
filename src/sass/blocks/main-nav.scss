@@ -1,0 +1,21 @@
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding: 0 12.5px;
+}
+
+.main-nav__link {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 91px;
+  color: #1F1E25;
+
+  &--active {
+    color: #2C36F2;
+  }
+}

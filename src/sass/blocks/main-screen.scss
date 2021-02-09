@@ -1,0 +1,105 @@
+.main-screen {
+  position: relative;
+  min-height: 400px;
+  background-color: #2C36F2;
+  background-image: linear-gradient(180.24deg, rgba(32, 39, 179, 0) 36.31%, #2027B3 99.79%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 269px;
+    margin-left: -533px;
+    left: 50%;
+    bottom: 0;
+    background-image: linear-gradient(183.47deg, rgba(56, 65, 255, 0) 66.3%, #3841FF 97.14%);
+    z-index: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 270px;
+    height: 269px;
+    margin-right: -384px;
+    right: 50%;
+    bottom: 0;
+    background-image: linear-gradient(183.47deg, rgba(56, 65, 255, 0) 27.26%, #3841FF 97.14%);
+    z-index: 1;
+  }
+}
+
+.main-screen__background-container {
+  position: absolute;
+  width: 917px;
+  min-height: 400px;
+  margin-left: -534px;
+  top: 0;
+  left: 50%;
+  background-color: #2C36F2;
+}
+
+.main-screen__container {
+  position: relative;
+  width: 1170px;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 102px 149px 0 170px;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 335px;
+    height: 228px;
+    top: 119px;
+    right: 235px;
+    background-image: url("../img/black-card.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 335px;
+    height: 228px;
+    top: 61px;
+    right: 126px;
+    background-image: url("../img/white-card.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+}
+
+.main-screen__title {
+  margin: 0;
+  font-size: 54px;
+  line-height: 63px;
+  color: #F6F7FF;
+}
+
+.main-screen__promo {
+  margin-top: 8px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #E0E1EA;
+}
+
+.main-screen__link {
+  display: block;
+  width: 234px;
+  height: 53px;
+  margin-top: 34px;
+  font-size: 18px;
+  line-height: 53px;
+  font-weight: 500;
+  color: #1F1E25;
+  text-align: center;
+  background-color: #F6F7FF;
+  border-radius: 4px;
+}

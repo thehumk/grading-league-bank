@@ -1,0 +1,51 @@
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  list-style: none;
+}
+
+.contacts__item {
+  padding-left: 29px;
+}
+
+.contacts__tel {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #1F1E25;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 16px;
+    background-repeat: no-repeat;
+  }
+
+  &--mobile::before {
+    width: 10px;
+    top: 2px;
+    left: -29px;
+    background-image: url("../img/icon-mobile-phone.svg");
+  }
+
+  &--main::before {
+    width: 16px;
+    top: 2px;
+    left: -34px;
+    background-image: url("../img/icon-phone.svg");
+  }
+}
+
+.contacts__info {
+  width: 170px;
+  margin-top: 1px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #707C87;
+}

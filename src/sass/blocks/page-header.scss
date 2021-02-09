@@ -1,0 +1,33 @@
+.page-header {
+  background-color: #F6F7FF;
+}
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  min-height: 91px;
+  margin: 0 auto;
+}
+
+.page-header__logo {
+  position: relative;
+  padding-left: 37px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 91px;
+  color: #1F1E25;
+  letter-spacing: 1.25px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 27px;
+    top: 26px;
+    left: -1px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+  }
+}

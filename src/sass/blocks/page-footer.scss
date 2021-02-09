@@ -1,0 +1,28 @@
+.page-footer {
+  padding: 56px 0 40px 0;
+  background-color: #F6F7FF;
+}
+
+.page-footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.page-footer__address {
+  margin-right: 81px;
+}
+
+.page-footer__nav {
+  margin-right: 80px;
+}
+
+.page-footer__contacts {
+  flex-grow: 1;
+}
+
+.page-footer__social {
+  margin-left: 17px;
+  margin-right: -1px;
+}
